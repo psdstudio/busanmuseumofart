@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.mainSliderT{
+	position:relative;
+}
+.sliderBg{
+	width:100%;
+	height:540px;
+	z-index:1;
+	position:absolute;
+	text-indent:-9999px;
+	background:rgba(0,0,0,0.55);
+}
+.mainSlider .slick-slide{
+	height:540px;
+	position:relative;
+	overflow:hidden;
+}
+.mainSlider img{
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+}
+.sliderBtn{
+	position:absolute;
+	z-index:10;
+	width:50px;
+	height:50px;
+	text-indent:-9999px;
+	top:50%;
+	margin-top:-25px;
+	cursor:pointer;
+}
+.slidePrev{
+	left:50%;
+	margin-left:-650px;
+	background:url(../images/arrow_left_w.png) no-repeat center center;
+}
+.slideNext{
+	right:50%;
+	margin-right:-650px;
+	background:url(../images/arrow_right_w.png) no-repeat center center;
+}
+.slick-dots{
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	margin-left:-33px;
+	z-index:2;
+	cursor:pointer;
+}
+.slick-dots li{
+	text-indent:-9999px;
+	border:1px solid #fff;
+	border-radius:6px;
+	width:10px;
+	height:10px;
+	float:left;
+	margin:0 5px;
+}
+.slick-active{
+	background:#fff;
+}
+.sliderTxt{
+	width:1200px;
+	line-height:40px;
+	position:absolute;
+	z-index:2;
+	top:50%;
+	left:50%;
+	margin-left:-600px;
+	margin-top:-60px;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+}
+.sliderTxt01{
+	font-weight:100;
+}
+.sliderTxt02{
+	font-size:40px;
+	font-weight:300;
+}
+.sliderTxt03{
+	font-size:24px;
+	font-weight:100;
+}
+/*메인컨텐츠1*/
+.mainCon01{
+	height:300px;
+	background:#f1f1f1;
+	text-align:center;
+}
+.mainCon01 h2{
+	font-size:30px;
+	font-weight:300;
+	padding-top:100px;
+}
+.mainCon01 h2 span{
+	font-weight:700;
+}
+.con01Btn{
+	width:250px;
+	height:40px;
+	line-height:40px;
+	border:1px solid #121212;
+	box-sizing:border-box;
+	margin:30px auto 0px;
+	background:#fff;
+}
+.con01Btn:hover{
+	background-color:burlywood;
+}
+.con01Btn a{
+	display:block;
+}
+/*메인컨텐츠2*/
+.mainCon02{
+	height:300px;
+	background:#e8e2db;
+}
+.mainCon02 li{
+	width:300px;
+	height:300px;
+	float:left;
+	text-align:center;
+}
+.mainCon02 li img{
+	width:60px;
+	margin-top:100px;
+	margin-bottom:10px;
+	transition:0.25s;
+}
+.mainCon02 li a{
+	display:block;
+	height:100%;
+}
+.mainCon02 li:hover img{
+	width:70px;
+	margin-bottom:0px;
+}
+/*메인컨텐츠3*/
+.mainCon03{
+	position:relative;
+	text-align:center;
+}
+.mainCon03 h2{
+	margin:100px 0;
+}
+.plusBtn{
+	position:absolute;
+	right:0;
+	top:0;
+	line-height:32px;
+	font-size:12px;
+}
+.plusBtn a{
+	display:block;
+	width:94px;
+	background:url(../images/plus_btn.png) no-repeat right center;
+}
+.con03Slider .slick-dots{
+	bottom:-32px;
+	margin-left:-66px;
+}
+.con03Slider .slick-dots li{
+	border:1px solid #121212;
+}
+.con03Slider .slick-active{
+	background:#121212;
+}
+.con03SliderBtn{
+}
+.con03PrevBtn{
+	left:-50px;
+	background:url(../images/arrow_left_b.png) no-repeat center center;
+}
+.con03NextBtn{
+	right:-50px;
+	background:url(../images/arrow_right_b.png) no-repeat center center;
+}
+.sns{
+	display:inline-block;
+	margin-top:112px;
+	margin-bottom:80px;
+}
+.sns li{
+	float:left;
+	margin:0 10px;
+}
+/*메인컨텐츠4*/
+
+.mainCon04{
+	height:650px;
+	background:#f1f1f1;
+}
+.con04L{
+	padding-right:40px;
+	box-sizing:border-box;
+}
+.con04 li{
+	width:600px;
+	float:left;
+}
+.con04 h2{
+	margin:50px 0;
+}
+.con04 p{
+	font-size:18px;
+	font-weight:bold;
+	margin:50px 0;
+}
+.con04 span{
+	font-size:14px;
+	
+}
+/*메인컨텐츠5*/
+.mainCon05{
+	position:relative;
+	text-align:center;
+}
+.mainCon05 h2{
+	margin:100px 0;
+}
+.con05{}
+.con05 li{
+	width:390px;
+	height:400px;
+	float:left;
+}
+.con05Img02{
+	margin:0 15px;
+}
+.con05 img{
+	display:block;
+}
+/*메인컨텐츠6*/
+.mainCon06{
+	text-align:center;
+}
+.mainCon06 h2{
+	font-size:30px;
+	font-weight:300;
+	padding:100px 0;
+}
+.mainCon06 h2 span{
+	font-weight:700;
+}
+.map{
+	height:500px;
+	background:#000;
+}
+.mapTxt{
+	background:#f1f1f1;
+	font-size:13px;
+	line-height:53px;
+}
+.traffic{}
+.traffic li{
+	float:left;
+	width:600px;
+	height:150px;
+	line-height:24px;
+}
+.traffic li h5{
+	font-size:13px;
+	margin-top:40px;
+}
+.traffic li p{
+	font-size:13px;
+}
+.wrap_controllers{
+	display:none;
+}
